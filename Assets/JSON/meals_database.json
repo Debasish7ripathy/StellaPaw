@@ -1,0 +1,890 @@
+[
+  {
+    "id": "dog_breakfast_1",
+    "name": "Chicken & Brown Rice Bowl",
+    "category": "breakfast",
+    "calories": 320,
+    "protein": 28,
+    "fat": 8,
+    "fiber": 3,
+    "suitableAge": "adult",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Lean chicken protein supports muscle maintenance. Brown rice is easily digestible for adult dogs.",
+    "ingredients": [
+      "chicken breast",
+      "brown rice",
+      "carrots",
+      "peas"
+    ],
+    "suitableSpecies": [
+      "dog"
+    ]
+  },
+  {
+    "id": "dog_breakfast_2",
+    "name": "Puppy Growth Kibble Mix",
+    "category": "breakfast",
+    "calories": 280,
+    "protein": 32,
+    "fat": 12,
+    "fiber": 2,
+    "suitableAge": "puppy",
+    "suitableEnergy": "veryHigh",
+    "healthBenefitDescription": "High protein formula for rapid growth. DHA added for brain development in puppies.",
+    "ingredients": [
+      "chicken meal",
+      "fish oil",
+      "egg",
+      "sweet potato"
+    ],
+    "suitableSpecies": [
+      "dog"
+    ]
+  },
+  {
+    "id": "dog_breakfast_3",
+    "name": "Senior Dog Salmon Porridge",
+    "category": "breakfast",
+    "calories": 210,
+    "protein": 20,
+    "fat": 7,
+    "fiber": 4,
+    "suitableAge": "senior",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Omega-3 from salmon supports joint health. Low calorie for less active senior dogs.",
+    "ingredients": [
+      "salmon",
+      "oatmeal",
+      "spinach",
+      "turmeric"
+    ],
+    "suitableSpecies": [
+      "dog"
+    ]
+  },
+  {
+    "id": "dog_lunch_1",
+    "name": "Beef & Vegetable Stew",
+    "category": "lunch",
+    "calories": 380,
+    "protein": 35,
+    "fat": 14,
+    "fiber": 5,
+    "suitableAge": "adult",
+    "suitableEnergy": "high",
+    "healthBenefitDescription": "High protein beef fuels active dogs. Vegetables add essential vitamins and minerals.",
+    "ingredients": [
+      "ground beef",
+      "potatoes",
+      "green beans",
+      "carrots"
+    ],
+    "suitableSpecies": [
+      "dog"
+    ]
+  },
+  {
+    "id": "dog_lunch_2",
+    "name": "Turkey & Sweet Potato Mash",
+    "category": "lunch",
+    "calories": 340,
+    "protein": 30,
+    "fat": 10,
+    "fiber": 4,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Turkey is a lean alternative protein. Sweet potato provides slow-release energy.",
+    "ingredients": [
+      "turkey",
+      "sweet potato",
+      "pumpkin",
+      "flaxseed"
+    ],
+    "suitableSpecies": [
+      "dog"
+    ]
+  },
+  {
+    "id": "dog_snack_1",
+    "name": "Peanut Butter & Banana Treat",
+    "category": "snack1",
+    "calories": 120,
+    "protein": 5,
+    "fat": 6,
+    "fiber": 2,
+    "suitableAge": "adult",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Natural peanut butter provides protein. Bananas are a great energy-boosting snack.",
+    "ingredients": [
+      "natural peanut butter",
+      "banana",
+      "oats"
+    ],
+    "suitableSpecies": [
+      "dog"
+    ]
+  },
+  {
+    "id": "dog_snack_2",
+    "name": "Frozen Blueberry Biscuit",
+    "category": "snack2",
+    "calories": 90,
+    "protein": 3,
+    "fat": 2,
+    "fiber": 3,
+    "suitableAge": "all",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Blueberries are antioxidant-rich. Great low-calorie cooling snack.",
+    "ingredients": [
+      "blueberries",
+      "plain yogurt",
+      "whole wheat flour"
+    ],
+    "suitableSpecies": [
+      "dog"
+    ]
+  },
+  {
+    "id": "dog_dinner_1",
+    "name": "Lamb & Quinoa Dinner",
+    "category": "dinner",
+    "calories": 360,
+    "protein": 33,
+    "fat": 13,
+    "fiber": 4,
+    "suitableAge": "adult",
+    "suitableEnergy": "high",
+    "healthBenefitDescription": "Lamb provides zinc and iron. Quinoa is a complete amino acid protein source for dogs.",
+    "ingredients": [
+      "lamb",
+      "quinoa",
+      "broccoli",
+      "olive oil"
+    ],
+    "suitableSpecies": [
+      "dog"
+    ]
+  },
+  {
+    "id": "dog_dinner_2",
+    "name": "Senior Salmon & Pumpkin Bowl",
+    "category": "dinner",
+    "calories": 220,
+    "protein": 22,
+    "fat": 8,
+    "fiber": 5,
+    "suitableAge": "senior",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Omega-3 from salmon reduces inflammation. Pumpkin aids digestion in senior dogs.",
+    "ingredients": [
+      "salmon",
+      "pumpkin",
+      "spinach",
+      "coconut oil"
+    ],
+    "suitableSpecies": [
+      "dog"
+    ]
+  },
+  {
+    "id": "dog_evening_1",
+    "name": "Chamomile & Honey Bone Broth",
+    "category": "eveningSnack",
+    "calories": 60,
+    "protein": 4,
+    "fat": 1,
+    "fiber": 0,
+    "suitableAge": "all",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Warm broth soothes the digestive system before bedtime and helps hydration.",
+    "ingredients": [
+      "bone broth",
+      "chamomile",
+      "honey"
+    ],
+    "suitableSpecies": [
+      "dog"
+    ]
+  },
+  {
+    "id": "cat_breakfast_1",
+    "name": "Tuna & Egg P\u00e2t\u00e9",
+    "category": "breakfast",
+    "calories": 210,
+    "protein": 30,
+    "fat": 9,
+    "fiber": 0,
+    "suitableAge": "adult",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Tuna is rich in omega-3 for a shiny coat. Cats need high animal protein to start the day.",
+    "ingredients": [
+      "tuna",
+      "egg",
+      "chicken broth"
+    ],
+    "suitableSpecies": [
+      "cat"
+    ]
+  },
+  {
+    "id": "cat_breakfast_2",
+    "name": "Kitten Whitefish Mousse",
+    "category": "breakfast",
+    "calories": 240,
+    "protein": 34,
+    "fat": 11,
+    "fiber": 0,
+    "suitableAge": "puppy",
+    "suitableEnergy": "veryHigh",
+    "healthBenefitDescription": "High protein mousse supports rapid kitten growth. Essential taurine for heart health.",
+    "ingredients": [
+      "whitefish",
+      "chicken liver",
+      "taurine supplement"
+    ],
+    "suitableSpecies": [
+      "cat"
+    ]
+  },
+  {
+    "id": "cat_lunch_1",
+    "name": "Chicken & Pumpkin Wet Food",
+    "category": "lunch",
+    "calories": 180,
+    "protein": 26,
+    "fat": 7,
+    "fiber": 1,
+    "suitableAge": "adult",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Chicken is a highly digestible protein for cats. Pumpkin improves gut motility.",
+    "ingredients": [
+      "chicken",
+      "pumpkin",
+      "water",
+      "vitamin mix"
+    ],
+    "suitableSpecies": [
+      "cat"
+    ]
+  },
+  {
+    "id": "cat_lunch_2",
+    "name": "Salmon & Shrimp Feast",
+    "category": "lunch",
+    "calories": 195,
+    "protein": 29,
+    "fat": 8,
+    "fiber": 0,
+    "suitableAge": "all",
+    "suitableEnergy": "high",
+    "healthBenefitDescription": "Dual seafood protein for active cats. Omega-3 for joint mobility.",
+    "ingredients": [
+      "salmon",
+      "shrimp",
+      "broth",
+      "taurine"
+    ],
+    "suitableSpecies": [
+      "cat"
+    ]
+  },
+  {
+    "id": "cat_snack_1",
+    "name": "Freeze-Dried Chicken Bits",
+    "category": "snack1",
+    "calories": 70,
+    "protein": 12,
+    "fat": 2,
+    "fiber": 0,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Pure protein treat with no fillers. Great training reward for cats.",
+    "ingredients": [
+      "freeze-dried chicken"
+    ],
+    "suitableSpecies": [
+      "cat"
+    ]
+  },
+  {
+    "id": "cat_snack_2",
+    "name": "Catnip & Tuna Gel Snack",
+    "category": "snack2",
+    "calories": 50,
+    "protein": 8,
+    "fat": 1,
+    "fiber": 0,
+    "suitableAge": "adult",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Calming catnip plus protein. A relaxing afternoon snack.",
+    "ingredients": [
+      "tuna",
+      "catnip extract",
+      "water"
+    ],
+    "suitableSpecies": [
+      "cat"
+    ]
+  },
+  {
+    "id": "cat_dinner_1",
+    "name": "Duck & Liver Ragout",
+    "category": "dinner",
+    "calories": 200,
+    "protein": 28,
+    "fat": 10,
+    "fiber": 0,
+    "suitableAge": "adult",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Duck is novel protein \u2014 ideal for cats with sensitivities. Liver adds essential B-vitamins.",
+    "ingredients": [
+      "duck",
+      "chicken liver",
+      "broth"
+    ],
+    "suitableSpecies": [
+      "cat"
+    ]
+  },
+  {
+    "id": "cat_dinner_2",
+    "name": "Senior Cat Kidney-Friendly Blend",
+    "category": "dinner",
+    "calories": 155,
+    "protein": 20,
+    "fat": 6,
+    "fiber": 1,
+    "suitableAge": "senior",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Low phosphorus content supports kidney health in senior cats. Easily digestible proteins.",
+    "ingredients": [
+      "chicken",
+      "egg white",
+      "fish oil",
+      "tapioca"
+    ],
+    "suitableSpecies": [
+      "cat"
+    ]
+  },
+  {
+    "id": "cat_evening_1",
+    "name": "Warm Anchovy Broth",
+    "category": "eveningSnack",
+    "calories": 40,
+    "protein": 6,
+    "fat": 1,
+    "fiber": 0,
+    "suitableAge": "all",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Warm broth promotes hydration. Cats often don't drink enough water \u2014 this helps.",
+    "ingredients": [
+      "anchovy broth",
+      "water"
+    ],
+    "suitableSpecies": [
+      "cat"
+    ]
+  },
+  {
+    "id": "bird_breakfast_1",
+    "name": "Seed & Berry Morning Mix",
+    "category": "breakfast",
+    "calories": 110,
+    "protein": 4,
+    "fat": 5,
+    "fiber": 6,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Varied seed mix provides healthy fats. Berries add antioxidants to support immune health.",
+    "ingredients": [
+      "millet",
+      "sunflower seeds",
+      "blueberries",
+      "flaxseed"
+    ],
+    "suitableSpecies": [
+      "bird"
+    ]
+  },
+  {
+    "id": "bird_lunch_1",
+    "name": "Pellet & Vegetable Chop",
+    "category": "lunch",
+    "calories": 95,
+    "protein": 6,
+    "fat": 2,
+    "fiber": 8,
+    "suitableAge": "adult",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Pellets provide balanced nutrition. Vegetable chop adds foraging enrichment and vitamins.",
+    "ingredients": [
+      "pellets",
+      "kale",
+      "bell pepper",
+      "carrot",
+      "corn"
+    ],
+    "suitableSpecies": [
+      "bird"
+    ]
+  },
+  {
+    "id": "bird_snack_1",
+    "name": "Apple & Millet Stick",
+    "category": "snack1",
+    "calories": 65,
+    "protein": 2,
+    "fat": 1,
+    "fiber": 4,
+    "suitableAge": "all",
+    "suitableEnergy": "high",
+    "healthBenefitDescription": "Natural fruit sugars give quick energy. Millet sticks support beak health.",
+    "ingredients": [
+      "millet",
+      "apple",
+      "honey"
+    ],
+    "suitableSpecies": [
+      "bird"
+    ]
+  },
+  {
+    "id": "bird_dinner_1",
+    "name": "Cooked Quinoa & Veggie Mix",
+    "category": "dinner",
+    "calories": 100,
+    "protein": 7,
+    "fat": 2,
+    "fiber": 6,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Cooked quinoa is a complete protein. A warm dinner promotes contentment before roosting.",
+    "ingredients": [
+      "quinoa",
+      "broccoli",
+      "peas",
+      "corn"
+    ],
+    "suitableSpecies": [
+      "bird"
+    ]
+  },
+  {
+    "id": "bird_evening_1",
+    "name": "Chamomile Soaked Seeds",
+    "category": "eveningSnack",
+    "calories": 50,
+    "protein": 2,
+    "fat": 2,
+    "fiber": 3,
+    "suitableAge": "all",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Sprouted seeds are easily digestible. Chamomile promotes calm sleep in birds.",
+    "ingredients": [
+      "sprouted seeds",
+      "chamomile water"
+    ],
+    "suitableSpecies": [
+      "bird"
+    ]
+  },
+  {
+    "id": "rabbit_breakfast_1",
+    "name": "Hay & Herb Morning Bundle",
+    "category": "breakfast",
+    "calories": 80,
+    "protein": 4,
+    "fat": 1,
+    "fiber": 18,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Timothy hay is the cornerstone of rabbit digestion. Fresh herbs add variety and minerals.",
+    "ingredients": [
+      "timothy hay",
+      "fresh parsley",
+      "dill",
+      "basil"
+    ],
+    "suitableSpecies": [
+      "rabbit"
+    ]
+  },
+  {
+    "id": "rabbit_lunch_1",
+    "name": "Leafy Greens Salad Bowl",
+    "category": "lunch",
+    "calories": 60,
+    "protein": 3,
+    "fat": 0,
+    "fiber": 12,
+    "suitableAge": "adult",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Dark leafy greens are rich in vitamins A and K. Essential for rabbit bone and coat health.",
+    "ingredients": [
+      "romaine lettuce",
+      "kale",
+      "arugula",
+      "cilantro"
+    ],
+    "suitableSpecies": [
+      "rabbit"
+    ]
+  },
+  {
+    "id": "rabbit_snack_1",
+    "name": "Berry & Banana Treat",
+    "category": "snack1",
+    "calories": 45,
+    "protein": 1,
+    "fat": 0,
+    "fiber": 3,
+    "suitableAge": "all",
+    "suitableEnergy": "high",
+    "healthBenefitDescription": "Small fruit portions for natural sweetness. Given sparingly to avoid sugar overload.",
+    "ingredients": [
+      "strawberry",
+      "banana slice"
+    ],
+    "suitableSpecies": [
+      "rabbit"
+    ]
+  },
+  {
+    "id": "rabbit_dinner_1",
+    "name": "Pellet & Broccoli Dinner",
+    "category": "dinner",
+    "calories": 90,
+    "protein": 5,
+    "fat": 1,
+    "fiber": 15,
+    "suitableAge": "adult",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "High-fibre pellets keep the gut moving. Broccoli florets add calcium for bone density.",
+    "ingredients": [
+      "timothy pellets",
+      "broccoli",
+      "endive"
+    ],
+    "suitableSpecies": [
+      "rabbit"
+    ]
+  },
+  {
+    "id": "rabbit_evening_1",
+    "name": "Dried Meadow Herb Mix",
+    "category": "eveningSnack",
+    "calories": 30,
+    "protein": 2,
+    "fat": 0,
+    "fiber": 8,
+    "suitableAge": "all",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Dried dandelion and chamomile promote gut health and calm before sleep.",
+    "ingredients": [
+      "dried dandelion",
+      "chamomile",
+      "dried rose petals"
+    ],
+    "suitableSpecies": [
+      "rabbit"
+    ]
+  },
+  {
+    "id": "fish_breakfast_1",
+    "name": "Micro Pellet Morning Feed",
+    "category": "breakfast",
+    "calories": 20,
+    "protein": 5,
+    "fat": 1,
+    "fiber": 0,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Micro pellets sized for small fish. Complete nutrition to start the day's swim.",
+    "ingredients": [
+      "fish meal",
+      "spirulina",
+      "vitamin mix"
+    ],
+    "suitableSpecies": [
+      "fish"
+    ]
+  },
+  {
+    "id": "fish_lunch_1",
+    "name": "Freeze-Dried Brine Shrimp",
+    "category": "lunch",
+    "calories": 18,
+    "protein": 6,
+    "fat": 1,
+    "fiber": 0,
+    "suitableAge": "adult",
+    "suitableEnergy": "high",
+    "healthBenefitDescription": "High protein treat that encourages natural hunting behaviour in fish.",
+    "ingredients": [
+      "brine shrimp"
+    ],
+    "suitableSpecies": [
+      "fish"
+    ]
+  },
+  {
+    "id": "fish_dinner_1",
+    "name": "Algae Wafer & Bloodworm Mix",
+    "category": "dinner",
+    "calories": 22,
+    "protein": 7,
+    "fat": 1,
+    "fiber": 1,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Algae wafers for bottom feeders. Bloodworms add high protein for omnivore species.",
+    "ingredients": [
+      "algae wafer",
+      "freeze-dried bloodworm"
+    ],
+    "suitableSpecies": [
+      "fish"
+    ]
+  },
+  {
+    "id": "hamster_breakfast_1",
+    "name": "Seed & Grain Morning Mix",
+    "category": "breakfast",
+    "calories": 55,
+    "protein": 3,
+    "fat": 4,
+    "fiber": 3,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "A balanced seed mix to start the day. Sunflower seeds provide healthy fats for energy.",
+    "ingredients": [
+      "sunflower seeds",
+      "millet",
+      "pumpkin seeds",
+      "oats"
+    ],
+    "suitableSpecies": [
+      "hamster"
+    ]
+  },
+  {
+    "id": "hamster_lunch_1",
+    "name": "Veggie & Protein Chop",
+    "category": "lunch",
+    "calories": 45,
+    "protein": 4,
+    "fat": 1,
+    "fiber": 5,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Broccoli and carrot provide essential vitamins. Boiled egg gives protein for muscle health.",
+    "ingredients": [
+      "broccoli",
+      "carrot",
+      "boiled egg",
+      "cucumber"
+    ],
+    "suitableSpecies": [
+      "hamster"
+    ]
+  },
+  {
+    "id": "hamster_snack_1",
+    "name": "Apple & Herb Nibble",
+    "category": "snack1",
+    "calories": 25,
+    "protein": 0,
+    "fat": 0,
+    "fiber": 2,
+    "suitableAge": "all",
+    "suitableEnergy": "high",
+    "healthBenefitDescription": "Small apple pieces are a sweet natural treat. Parsley adds vitamin C.",
+    "ingredients": [
+      "apple slice",
+      "fresh parsley"
+    ],
+    "suitableSpecies": [
+      "hamster"
+    ]
+  },
+  {
+    "id": "hamster_snack2_1",
+    "name": "Dried Fruit & Nut Mix",
+    "category": "snack2",
+    "calories": 40,
+    "protein": 2,
+    "fat": 3,
+    "fiber": 2,
+    "suitableAge": "adult",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Unsweetened dried fruits and nuts for afternoon energy. Walnuts support brain health.",
+    "ingredients": [
+      "dried cranberry",
+      "walnut piece",
+      "dried blueberry"
+    ],
+    "suitableSpecies": [
+      "hamster"
+    ]
+  },
+  {
+    "id": "hamster_dinner_1",
+    "name": "Pellet & Spinach Bowl",
+    "category": "dinner",
+    "calories": 60,
+    "protein": 4,
+    "fat": 2,
+    "fiber": 4,
+    "suitableAge": "all",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Hamster pellets ensure complete nutrition. Spinach adds iron and folate.",
+    "ingredients": [
+      "hamster pellets",
+      "spinach",
+      "courgette"
+    ],
+    "suitableSpecies": [
+      "hamster"
+    ]
+  },
+  {
+    "id": "hamster_evening_1",
+    "name": "Sprouted Seed Night Feed",
+    "category": "eveningSnack",
+    "calories": 30,
+    "protein": 2,
+    "fat": 2,
+    "fiber": 3,
+    "suitableAge": "all",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Sprouted seeds are easier to digest at night. High in enzymes and live nutrients.",
+    "ingredients": [
+      "sprouted wheat",
+      "sprouted mung bean"
+    ],
+    "suitableSpecies": [
+      "hamster"
+    ]
+  },
+  {
+    "id": "turtle_breakfast_1",
+    "name": "Leafy Green Morning Plate",
+    "category": "breakfast",
+    "calories": 35,
+    "protein": 3,
+    "fat": 0,
+    "fiber": 6,
+    "suitableAge": "all",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Dark leafy greens are the foundation of a tortoise diet. High calcium for strong shell growth.",
+    "ingredients": [
+      "collard greens",
+      "dandelion leaves",
+      "kale",
+      "endive"
+    ],
+    "suitableSpecies": [
+      "turtle"
+    ]
+  },
+  {
+    "id": "turtle_lunch_1",
+    "name": "Calcium-Rich Veggie Mix",
+    "category": "lunch",
+    "calories": 40,
+    "protein": 3,
+    "fat": 0,
+    "fiber": 7,
+    "suitableAge": "adult",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Bell peppers provide vitamin C and hydration. Calcium-dusted vegetables support shell density.",
+    "ingredients": [
+      "bell pepper",
+      "turnip greens",
+      "butternut squash",
+      "cuttlebone powder"
+    ],
+    "suitableSpecies": [
+      "turtle"
+    ]
+  },
+  {
+    "id": "turtle_snack_1",
+    "name": "Hibiscus & Strawberry Treat",
+    "category": "snack1",
+    "calories": 20,
+    "protein": 0,
+    "fat": 0,
+    "fiber": 2,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Hibiscus flowers are a favourite treat for tortoises. Strawberries add natural vitamin C.",
+    "ingredients": [
+      "hibiscus flower",
+      "strawberry"
+    ],
+    "suitableSpecies": [
+      "turtle"
+    ]
+  },
+  {
+    "id": "turtle_snack2_1",
+    "name": "Soaked Pellet Snack",
+    "category": "snack2",
+    "calories": 45,
+    "protein": 5,
+    "fat": 1,
+    "fiber": 3,
+    "suitableAge": "all",
+    "suitableEnergy": "moderate",
+    "healthBenefitDescription": "Reptile pellets soaked in water for easy eating. Balanced vitamins for shell and eye health.",
+    "ingredients": [
+      "reptile pellets",
+      "warm water"
+    ],
+    "suitableSpecies": [
+      "turtle"
+    ]
+  },
+  {
+    "id": "turtle_dinner_1",
+    "name": "Dandelion & Clover Dinner",
+    "category": "dinner",
+    "calories": 30,
+    "protein": 2,
+    "fat": 0,
+    "fiber": 8,
+    "suitableAge": "all",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Dandelion and clover mimic natural tortoise foraging. High fibre supports slow gut motility.",
+    "ingredients": [
+      "dandelion leaves",
+      "clover",
+      "plantain weed",
+      "timothy hay"
+    ],
+    "suitableSpecies": [
+      "turtle"
+    ]
+  },
+  {
+    "id": "turtle_evening_1",
+    "name": "Warm Soak & Cactus Pad",
+    "category": "eveningSnack",
+    "calories": 15,
+    "protein": 1,
+    "fat": 0,
+    "fiber": 4,
+    "suitableAge": "all",
+    "suitableEnergy": "low",
+    "healthBenefitDescription": "Cactus pads (nopal) are hydrating and cooling. Evening soak routine helps digestion and hydration.",
+    "ingredients": [
+      "cactus pad (nopal)",
+      "water"
+    ],
+    "suitableSpecies": [
+      "turtle"
+    ]
+  }
+]
